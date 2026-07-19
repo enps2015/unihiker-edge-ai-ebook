@@ -1,155 +1,149 @@
-<p alinhar="centro">
-	<imagem fonte="docs/ebook/capa.png" alt="Banner da obra UNIHIKER Edge AI" largura="860" />
+<p align="center">
+	<img src="docs/ebook/capa.png" alt="Banner da obra UNIHIKER Edge AI" width="860" />
 </p>
 
-<a id="topo"></a>
+`<a id="topo"></a>`
 
-<h1 alinhar="centro">E-book UNIHIKER Edge AI</h1>
+<h1 align="center">UNIHIKER Edge AI eBook</h1>
 
-<p alinhar="centro">
+<p align="center">
 	Documentação editorial e técnica do Volume I sobre a plataforma UNIHIKER,
-desde sua origem na DFRobot até aplicações de engenharia na Edge AI.
+desde sua origem na DFRobot até aplicações de engenharia em Edge AI.
 </p>
 
-<p alinhar="centro">
-	<imagem alt="versao" fonte="https://img.shields.io/badge/vers%C3%A3o-1.0.0-0A7EA4" />
-	<imagem alt="status" fonte="https://img.shields.io/badge/status-stable-1E8E3E" />
-	<imagem alt="pdfs" fonte="https://img.shields.io/badge/PDFs-43-4C1D95" />
-	<a href="LICENÇA">
-    <imagem alt="Licença CC BY-NC-SA 4.0"
-    fonte="https://img.shields.io/badge/Licença-CC%20BY--NC--SA%204.0-blue" />
+<p align="center">
+	<img alt="versao" src="https://img.shields.io/badge/vers%C3%A3o-1.0.0-0A7EA4" />
+	<img alt="status" src="https://img.shields.io/badge/status-stable-1E8E3E" />
+	<img alt="pdfs" src="https://img.shields.io/badge/PDFs-43-4C1D95" />
+	<a href="LICENSE">
+    <img alt="Licença CC BY-NC-SA 4.0"
+    src="https://img.shields.io/badge/Licença-CC%20BY--NC--SA%204.0-blue" />
 </a>
 
 </p>
 
-> Navegacao: [ÍNDICE_PROJETO](PROJETO_ÍNDICE.md) • [Início da documentação](docs/README.md) • [Caminho de aprendizagem](CAMINHO_APRENDIZAGEM.md)
+> Navegacao: [PROJECT_INDEX](PROJECT_INDEX.md) • [Home da documentacao](docs/README.md) • [Learning Path](LEARNING_PATH.md)
 
 ---
 
 ## Navegacao
 
-- [Herói Secao](#secao-hero)
+- [Secao Hero](#secao-hero)
 - [Sobre o Livro](#sobre-o-livro)
-- [Principais associados abatidos](#principais-assuntos-abordados)
-- [Público-alvo](#publico-alvo)
+- [Principais assuntos abordados](#principais-assuntos-abordados)
+- [Publico-alvo](#publico-alvo)
 - [Estrutura da obra](#estrutura-da-obra)
 - [Como baixar o PDF](#como-baixar-o-pdf)
 - [Galeria](#galeria)
-- [Tecnologias abertas](#tecnologias-abordadas)
-- [Roteiro das próximas versos](#roadmap-das-proximas-versoes)
+- [Tecnologias abordadas](#tecnologias-abordadas)
+- [Roadmap das proximas versoes](#roadmap-das-proximas-versoes)
 - [Como contribuir](#como-contribuir)
-- [Licença](#licenca)
+- [Licenca](#licenca)
 - [Autor](#autor)
 
 ---
 
-## Herói Secao
+## Secao Hero
 
-Repositório oficial do ebook UNIHIKER Edge AI, dedicado ao estudo da plataforma UNIHIKER, arquitetura de sistemas embarcados inteligentes e aplicações de Edge AI.	
+Repositório oficial do ebook UNIHIKER Edge AI, dedicado ao estudo da plataforma UNIHIKER, arquitetura de sistemas embarcados inteligentes e aplicações de Edge AI.
 
 ## Sobre o Livro
 
-Este repositório organiza os ativos editoriais e técnicos do Volume I, com material em PDF e documentos mestres de arquitetura editorial e projeto gráfico.
+Este repositorio organiza os ativos editoriais e tecnicos do Volume I, com material em PDF e documentos mestres de arquitetura editorial e projeto grafico.
 
-<detalhes>
-	<resumo>Ver escopo atual da obra</resumo>
+<details>
+	<summary>Ver escopo atual da obra</summary>
 
-- Volume I com 12 capítulos.
-- Estruturação em quatro partes editoriais.
-- Arquivos finais e parques centralizados em docs/ebook.
-- Diretrizes de diagramação, padrao editorial e governanca do repositório.
+- Volume I com 12 capitulos.
+- Estruturacao em quatro partes editoriais.
+- Arquivos finais e parciais centralizados em docs/ebook.
+- Diretrizes de diagramação, padrao editorial e governanca do repositorio.
 
-</detalhes>
+</details>
 
-## Principais associados abatidos
+## Principais assuntos abordados
 
-Com base na estrutura editorial e nos capítulos disponíveis:
+Com base na estrutura editorial e nos capitulos disponiveis:
 
-| Bloco | Tema central |
-|---|---|
-| Parte I | Fundamentos da plataforma UNIHIKER e contexto do DFRobot |
-| Parte II | Arquitetura completa K10 e M10, comparação e critério de escola |
+| Bloco     | Tema central                                                                      |
+| --------- | --------------------------------------------------------------------------------- |
+| Parte I   | Fundamentos da plataforma UNIHIKER e contexto da DFRobot                          |
+| Parte II  | Arquitetura completa K10 e M10, comparacao e criterio de escolha                  |
 | Parte III | Projetos modelo, framework de engenharia, ambiente profissional e estudos de caso |
-|alinhar</imagem |
+| Parte IV  | Futuro da engenharia de sistemas inteligentes                                     |
 
-## Público-alvo
+## Publico-alvo
 
 - Estudantes e iniciantes em sistemas embarcados e Edge AI.
 - Engenheiros e arquitetos de sistemas inteligentes.
-- Equipes técnicas, startups e consultorias que entram projetos aplicados.
-- Liderancas técnicas e tomates de decisão.
+- Equipes tecnicas, startups e consultorias que entregam projetos aplicados.
+- Liderancas tecnicas e tomadores de decisao.
 
 ## Estrutura da obra
 
-```texto
-alinhar
-CAMINHO_APRENDIZAGEM.md
-imagem 
+```text
+unihiker-edge-ai-ebook/
+├── README.md
+├── LICENSE
 ├── CHANGELOG.md
-├── CIDADÃO.cff
-├── documentos/
-| ├── e-book/
-| ├── imagens/
-| ├── figuras/
-| ├── faixas/
-├── exemplos/
-├── projetos/
-├── recorrentes/
-├── referências/
-├── ativos/
+├── CITATION.cff
+├── docs/
+|  ├── ebook/
+|  ├── imagens/
+|  ├── figuras/
+|  ├── banners/
+├── examples/
+├── projects/
+├── resources/
+├── references/
+├── assets/
 ```
 
-<detalhes>
-	<resumo>Ver estrutura editorial do Volume I (resumo)</resumo>
+<details>
+	<summary>Ver estrutura editorial do Volume I (resumo)</summary>
 
-- Bloco pré-textual.
-- Bloco textual dividido em 4 partes e 12 capítulos.
-- Bloco pos-textual (glossário, bibliografia, colofao e histórico).
+- Bloco pre-textual.
+- Bloco textual dividido em 4 partes e 12 capitulos.
+- Bloco pos-textual (glossario, bibliografia, colofao e historico).
 
-
-</detalhes>
+</details>
 
 ## Como baixar o PDF
 
-### Diretor da Opcao
+### Opcao principal
 
-📥 **Baixe a versão oficial na página de [Lançamentos](https://github.com/enps2015/unihiker-edge-ai-ebook/releases).**
+📥 **Baixe a versão oficial na página de [Releases](https://github.com/enps2015/unihiker-edge-ai-ebook/releases).**
 
-### Outros PDFs disponíveis
+### Outros PDFs disponiveis
 
-- Pasta completa com arquivos do eBook: [documentos/e-book](documentos/e-book)
+- Pasta completa com arquivos do eBook: [docs/ebook](docs/ebook)
 
 ## Galeria
 
+| Preview                                            | Descricao                |
+| -------------------------------------------------- | ------------------------ |
+| ![Placeholder capa](docs/ebook/capa.png)             | Capa atual da obra       |
+| ![Placeholder contracapa](docs/ebook/contracapa.png) | Contracapa atual da obra |
 
-| Pré-visualização | Descricao |
-|---|---|
-| ![Espaço reservado capa](docs/ebook/capa.png) | Capa atual da obra |
-| ![Espaço reservado contracapa](docs/ebook/contracapa.png) | Contracapa atual da obra |
+## Tecnologias abordadas
 
+Escopo tecnico identificado pelos titulos e estrutura da obra:
 
-## Tecnologias abertas
-
-Escopo técnico identificado pelos títulos e estrutura da obra:
-
-- IA de ponta
+- Edge AI
 - Sistemas embarcados
 - Arquitetura de hardware e software
 - Engenharia de sistemas inteligentes
 - Metodologias de desenvolvimento e entrega de projetos
-
 
 ## Roadmap das proximas versoes
 
 <details>
 	<summary>Planejamento de evolucao editorial</summary>
 
-| Versao | Objetivo | Status |
-|---|---|---|
-| 1.0.0 | Primeira edição pública | ✅ Pronta para publicação |
-| 1.1.0 | Inclusão de novos projetos e estudos de caso | Planejado |
-
-
+| Versao | Objetivo                                      | Status                      |
+| ------ | --------------------------------------------- | --------------------------- |
+| 1.0.0  | Primeira edição pública                    | ✅ Pronta para publicação |
+| 1.1.0  | Inclusão de novos projetos e estudos de caso | Planejado                   |
 
 </details>
 
@@ -170,12 +164,10 @@ Este ebook está licenciado sob a licença
 
 Isso significa que o conteúdo pode ser compartilhado e adaptado para fins não comerciais, desde que a autoria seja atribuída e as obras derivadas sejam distribuídas sob a mesma licença.
 
-
 ## Autor
 
 Metadados atuais de autoria e citacao estao em [CITATION.cff](CITATION.cff).
 
-
 ---
-[↑ Voltar ao topo](#topo)
 
+[↑ Voltar ao topo](#topo)
