@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support
+    url: https://github.com/<owner>/<repo>/blob/main/SUPPORT.md
+    about: Veja os canais oficiais de suporte e duvidas.
+  - name: Security Policy
+    url: https://github.com/<owner>/<repo>/blob/main/SECURITY.md
+    about: Reporte vulnerabilidades de forma responsavel.

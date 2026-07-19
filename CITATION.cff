@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this eBook, please cite it using the metadata below."
+title: "UNIHIKER Edge AI eBook"
+version: "1.0.0"
+date-released: "2026-07-18"
+authors:
+	- family-names: "Editorial Team"
+		given-names: "UNIHIKER"
